@@ -1,0 +1,13 @@
+//GET http://localhost:5000/users
+
+
+# POST http://localhost:5000/users
+# content-type: application/json
+
+# {
+#     "firstName":"Johnny",
+#     "lastName": "Doe",
+#     "age": 24
+# }
+
+DELETE http://localhost:5000/users/2cd04c9c-e2e0-4fd0-b255-040c886c91ef
